@@ -17,3 +17,16 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.form_group{
+  display: flex;
+  flex-direction: column;
+}
+fieldset{
+  border: 3px solid;
+  border-image-source: radial-gradient(ellipse at top left,darkgrey 30%, transparent 70%);
+  border-image-slice: 1;
+}
+select{
+  width: fit-content;
+}

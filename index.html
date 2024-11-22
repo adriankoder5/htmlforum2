@@ -10,6 +10,46 @@
   <body>
     <main>
       <h1>Home page</h1>
+      <form action="/submit" method="post">
+        <fieldset>
+          <legend>personInf</legend>
+          <div class="form_group">
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" placeholder="skriv navnet her" required/>
+          </div>
+          <div class="form_group">
+            <label for="surname">Navn</label>
+            <input type="text" id="surname" name="surname" placeholder="skriv eternavnet her"/>
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"/>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>hobbyer</legend>
+          <label><input type="checkbox" name="hobby" value="fiske">fiske  🐟|</label>
+          <label><input type="checkbox" name="hobby" value="spill">spill  🐟|</label>
+          <label><input type="checkbox" name="hobby" value="koding">koding  🐟|</label>
+          <label><input type="checkbox" name="hobby" value="other">other  🐟|</label>
+        </fieldset>
+        <div class="form_group">
+          <label for="country">land</label>
+          <select name="country" id="country">
+            <option value="norge">norge</option>
+            <option value="sverie">sverie</option>
+            <option value="danmark">danmark</option>
+            <option value="island">island</option>
+            <option value="finnland">finnland</option>
+          </select>
+        </div>
+        <div class='form_group'>
+          <label for="picture">last opp bilde</label>
+          <input type="file" id="picture" name="picture" accept="image/*"/>
+        </div>
+        <br/>
+        <button>Send inn!!!!!!!!!!!!!!!!!!!!!!!!!!!</button>
+      </form>
     </main>
   </body>
 </html>
