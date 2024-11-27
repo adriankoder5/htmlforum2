@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgba(210, 131, 232, 0.492);
 }
 
 main {
@@ -16,6 +16,7 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  text-shadow: 1px 1px 1px rgb(174, 110, 192);
 }
 
 .form_group{
@@ -24,9 +25,13 @@ h1 {
 }
 fieldset{
   border: 3px solid;
-  border-image-source: radial-gradient(ellipse at top left,darkgrey 30%, transparent 70%);
+  border-image-source: radial-gradient(ellipse at top left,rgb(39, 217, 191) 30%, transparent 65%);
   border-image-slice: 1;
 }
 select{
   width: fit-content;
 }
+legend{
+  color: rgba(0, 0, 0, 0.875);
+}
+
