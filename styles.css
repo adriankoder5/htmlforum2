@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgba(210, 131, 232, 0.492);
+  /* background-color: rgba(210, 131, 232, 0.492); */
+  background-image: linear-gradient(90deg,rgba(210, 131, 232, 0.605),rgba(186, 47, 228, 0.605));
 }
 
 main {
@@ -32,6 +34,12 @@ select{
   width: fit-content;
 }
 legend{
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.875);
 }
-
+#country{
+  width: 30%;
+}
+button{
+  cursor: pointer;
+}
